@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(../6.jpg);
+    height: 110vh;
+    background-size: cover;
+    background-position:
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 90px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border:1px solid;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:#FFF;
+    color:#000000;
+}
+ul li.active a{
+ background-color:#fff;
+    color:#000000;
+}
